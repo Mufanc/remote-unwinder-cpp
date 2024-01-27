@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+EXECUTABLE="remote-unwinder"
+
+adb push cmake-build-debug/remote-unwinder /data/local/tmp
+adb shell "chmod +x /data/local/tmp/$EXECUTABLE && (killall $EXECUTABLE; true) && /data/local/tmp/$EXECUTABLE"

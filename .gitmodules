@@ -1,0 +1,8 @@
+[submodule "external/unwinding"]
+	path = external/unwinding
+	url = https://android.googlesource.com/platform/system/unwinding
+	branch = android13-release
+[submodule "external/abseil-cpp"]
+	path = external/abseil-cpp
+	url = https://github.com/abseil/abseil-cpp
+	branch = lts_2024_01_16
